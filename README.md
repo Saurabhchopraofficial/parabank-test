@@ -34,3 +34,7 @@ The tests interact with both the UI and backend APIs to ensure end-to-end functi
 
 ```bash
 npx playwright test --project=chromium --channel=chrome
+
+OR Use:
+
+npx playwright test --headed --project="Google Chrome"  
